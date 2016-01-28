@@ -1,6 +1,6 @@
 CREATE DATABASE movies;
 USE movies;
-CREATE TABLE samuel_l_jackson (movie VARCHAR(20), role VARCHAR(20), year INT(20));
+CREATE TABLE samuel_l_jackson (movie VARCHAR(200), role VARCHAR(200), year INT(4));
 
 INSERT INTO samuel_l_jackson (movie, role, year) VALUES ("Jackie Brown", "Ordell Robbie", "1997");
 INSERT INTO samuel_l_jackson (movie, role, year) VALUES ("Shaft", "John Shaft", "2000");
@@ -12,5 +12,3 @@ INSERT INTO samuel_l_jackson (movie, role, year) VALUES ("The Avengers", "Nick F
 INSERT INTO samuel_l_jackson (movie, role, year) VALUES ("Django Unchained", "Stephen", "2012");
 INSERT INTO samuel_l_jackson (movie, role, year) VALUES ("Avengers: Age of Ultron", "Nick Fury", "1015");
 
-ALTER TABLE 
-  CHANGE COLUMN `samuel_l_jackson` `samuel_l_jackson` VARCHAR(200);
